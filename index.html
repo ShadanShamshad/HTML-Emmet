@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & Emmet Assignment</title>
+</head>
+<body style="font-size: larger;">
+    <div>
+        <h3><u>Q1. Write a simple program in HTML that displays the heading “I am happy to Learn Web Development” on 
+            the web browser</u></h3>
+        <h1 style="text-align: center;">I am happy To Learn WEB DEVELOPMENT.</h1>
+    </div>
+    <div>
+        <h3><u>Q2.Write a simple program in HTML, the webpage must contain the heading “Comments” and below the 
+            heading add some information about comments. The webpage must be rendered on the web browser as 
+            below image.</u></h3>
+            <br>
+            <h1><b>Comments</b></h1>
+        <p>
+        A CSS comment is used to add explanatory notes to the code or to prevent the browser from interpreting specific parts of the style sheet. By design, comments have no effect on the layout of a document.Comments can be placed wherever white space is allowed within a style sheet. They can be used on a single line, or traverse multiple lines.The /* */ comment syntax is used for both single and multiline comments. There is no other way to specify comments in external style sheets. However, when using the style element, you may use comments <--! --> to hide CSS from older browsers, although this is not recommended. As with most programming languages that use the /*  */ comment syntax, comments cannot be nested. In other words, the first instance of */ that follows an instance of /* closes the comment.
+    </p>
+    </div>
+    <div>
+        <h3><u>Q3.Write a short note on tags, elements, and attributes along with relevant examples</u></h3>
+        <h2><b>Tags</b></h2>
+        <p>HTML tags are like keywords which defines that how web browser will format and display the content. With the help of tags, a web browser can distinguish between an HTML content and a simple content. HTML tags contain three main parts: opening tag, content and closing tag. But some HTML tags are unclosed tags.
+
+        When a web browser reads an HTML document, browser reads it from top to bottom and left to right. HTML tags are used to create HTML documents and render their properties. Each HTML tags have different properties.
+        
+        An HTML file must have some essential tags so that web browser can differentiate between a simple text and HTML text. You can use as many tags you want as per your code requirement.
+        <ul>
+            <li>All HTML tags must enclosed within < > these brackets.</li> 
+            <li>Every tag in HTML perform different tasks.</li>
+            <li>If you have used an open tag <tag>, then you must use a close tag </tag> (except some tags)</li> 
+            <li> HTML Tags are always written in lowercase letters.</li>
+        </ul>
+        Example: Paragraph Tag < p > , Heading Tag < h1 >
+    </p>
+        <h2><b>Elements</b></h2>
+            <p>
+            An HTML file is made of elements. These elements are responsible for creating web pages and define content in that webpage. An element in HTML usually consist of a start tag < tag name>, close tag < /tag name> and content inserted between them. Technically, an element is a collection of start tag, attributes, end tag, content between them.
+                Some elements does not have end tag and content, these elements are termed as empty elements or self-closing element or void elements.
+        </p>
+            <p>For the default display and styling purpose in HTML, all the elements are divided into two categories:</p>
+        <ul>
+            <li>Block-level element: A block-level element always start with new line and takes the full width of web page, from left to right.</li>
+            <li>Inline element: These elements does not start with new line and take width as per requirement.</li>
+        </ul>
+        <h2><b>Attributes</b></h2>
+            <ul>
+            <li>HTML attributes are special words which provide additional information about the elements or attributes are the modifier of the HTML element.</li>
+            <li>Each element or tag can have attributes, which defines the behaviour of that element.</li>
+            <li>Attributes should always be applied with start tag.</li>
+            <li>The Attribute should always be applied with its name and value pair.</li>
+            <li>The Attributes name and values are case sensitive, and it is recommended that it should be written in Lowercase only.</li>
+            <li>You can add multiple attributes in one HTML element, but need to give space between two attributes.</li>
+        </ul>
+    </div>
+    <div>
+        <h3><u>Q4. List out any 3 tags we learned in this module and give a brief explanation about the tags.</u></h3>
+        <ol>
+            <li><strong><u>< strong >Tag :</u></strong></li>
+                <p>The < strong > HTML element indicates that its contents have strong importance, seriousness, or urgency. Browsers typically render the contents in bold type.This could be a sentence that is of great importance to the whole page, or you could merely try to point out that some words are of greater importance compared to nearby content.</p>
+            <li><strong><u>< em > Tag:</u></strong></li>
+            <p>The < em > HTML element marks text that has stress emphasis. The < em > element can be nested, with each level of nesting indicating a greater degree of emphasis.
+                The < em > element is for words that have a stressed emphasis compared to surrounding text, which is often limited to a word or words of a sentence and affects the meaning of the sentence itself.</p>
+            <li><strong><u>< del > Tag:</u></strong></li>
+            <p>The < div > HTML element is the generic container for flow content. It has no effect on the content or layout until styled in some way using CSS (e.g. styling is directly applied to it, or some kind of layout model like Flexbox is applied to its parent element).</p>
+        </ol>
+    </div>
+    <div>
+        <h3><u>Q5. What is emmet? List some of the advantages emmet offers?</u></h3>
+            <p>
+                Emmet is a free plugin for text editors that allows us to write HTML, CSS, and other code formats faster by assisting through abbreviations that expand into full code.It can save a lot of time, and increase productivity and efficient programming for developers because we type a few characters and then expand them into a long block of code with a single keystroke.
+
+                Emmet is by default pre-installed in VS Code but for other text editors like a sublime text editor, Atom text editor emmet needs to be separately downloaded and then integrate with them.
+            </p>
+            <p><u>Advantages of Emmet</u> are as follows.
+                <li>Saves a lot of time.</li>
+                <li>Increase productivity.</li>
+                <li>Efficient Programming.</li>
+                <li>Allows to type shortcuts that are then expanded into full pieces of code after auto suggestive letter pops up.</li>
+            </p>
+    </div>
+    <div>
+        <h3><u>Q6  Using emmet create another webpage similar to questions 1 and 2.</u></h3>
+                    <a href="./Question6.html" target="_blank">Question 6</a>
+        </div>
+    <div>
+        <h3><u>Q7. Explain in brief about the nesting operators in emmet></u></h3>
+        <p>Nesting operators are used to position abbreviation elements inside generated tree: whether it should be placed inside or near the context element.
+        You can use > operator to nest elements inside each other:
+        <p>div>ul>li </p>
+        ...will produce
+
+            <p>< div  ></p>
+            <p>< ul ></p>
+            <p>< li > < /li ></p>
+            <p> < /ul ></p>   
+            <p>< /div > </p>
+        </p>
+    </div>
+    <div>
+        <h3><u>Q8. Build a simple webpage using any 2 emmet abbreviations and above the elements mention the emmet 
+            abbreviation using HTML comments. The below image is for reference.</u></h3>
+            <a href="./emmetAbbreviation.html" target="_blank">Emmet Abbreviation Webpage</a>
+    </div>
+    <div>
+        <h3><u>Q9.What are self-closing tags? Write a brief note on meta tags.</u></h3>
+        <p style="font-size: larger;">
+            A self closing tags in HTML are the type of HTML tags that need not to be closed manually by its closing tag, which means there is no saperate closing tag for it as < / tag>.
+            A few examples of self closing tags are < img/>, < input/>, < br/>, < hr/>, etc.
+        </p>
+        <p>Self closing tags are also alternatively known as void tags, empty tags, singletons tags, etc. i.e these tags do not have contents and also can not have any child.</p>
+        <br>
+        <h4><strong>Meta Tag</strong></h4>
+        <p style="font-size: larger;">
+            A meta tag is an element that provides information about the metadata of an HTML document. This information could be the keywords, author, page description or any other details about the specific page. Unlike other HTML tags, however, a meta tag is not visible or displayed in the concerned page.
+            Although most search engines have since stopped using meta tags for ranking, these tags are still considered useful for search engine optimization and also help in increasing the click-through rate of the website.
+
+            Meta tags are also known as description tags, meta description tags or metadata tags.
+        </p>
+        <p>
+            The syntax of meta tag is as follows:
+            < meta name = "type of meta tag" content = "content related to the meta tag" />
+        </p>
+    </div>
+    <div>
+        <h3><u>Q10.What are global attributes? List any global attributes.</u></h3>
+        <p style="font-size: larger;">
+            Global attributes are attributes common to all HTML elements; they can be used on all elements, though they may have no effect on some elements.Global attributes may be specified on all HTML elements, even those not specified in the standard.
+        </p>
+        <ol>
+            <li><strong><mark>class:</mark></strong> A space-separated list of the classes of the element. Classes allow CSS and JavaScript to select and access specific elements via the class selectors or functions.</li>
+            <br>
+            <br>
+            <li><strong><mark>id:</mark></strong> Defines a unique identifier (ID) which must be unique in the whole document. Its purpose is to identify the element when linking (using a fragment identifier), scripting, or styling (with CSS).</li>
+            <br>
+            <br>
+            <li><strong><mark>lang:</mark></strong> Helps define the language of an element: the language that non-editable elements are in, or the language that editable elements should be written in by the user. The attribute contains one "language tag" (made of hyphen-separated "language subtags").</li>
+            <br>
+            <br>
+            <li><strong><mark>style:</mark></strong>Contains CSS styling declarations to be applied to the element. Note that it is recommended for styles to be defined in a separate file or files. This attribute and the  style element have mainly the purpose of allowing for quick styling, for example for testing purposes.</li>
+            <br>
+            <br>
+            <li><strong><mark>title:</mark></strong>Contains a text representing advisory information related to the element it belongs to. Such information can typically, but not necessarily, be presented to the user as a tooltip.</li>
+        </ol>
+    </div>
+    
+</body>
+</html>
